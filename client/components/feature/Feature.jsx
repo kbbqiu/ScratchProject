@@ -31,7 +31,6 @@ class Feature extends Component {
           <Timer duration={this.props.deadline} elapsed={this.state.elapsed} />
           <Progress />
           <InfoBtn />
-          
         </div>
       </div>
     );
